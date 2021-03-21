@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: cl.hiperactivo.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.447 s <<< FAILURE! - in cl.hiperactivo.AppTest
+testFlujoCompra(cl.hiperactivo.AppTest)  Time elapsed: 13.338 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#product\-container"}
+  (Session info: chrome=88.0.4324.96)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBookProHB.local', ip: 'fe80:0:0:0:147f:4ecd:8d63:68d6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/kp/fvmsvh6n001...}, goog:chromeOptions: {debuggerAddress: localhost:54617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1f85fcc0a2b2f91e1af9361eb233e828
+*** Element info: {Using=id, value=product-container}
+	at cl.hiperactivo.AppTest.testFlujoCompra(AppTest.java:46)
+
